@@ -12,10 +12,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "euw1-aws-eks-cluster-terraform-state"
-    key = "euw1-aws-eks-cluster/terraform.tfstate"
-    region = "eu-west-1"
-    dynamodb_table = "euw1-aws-eks-cluster-tf-state"
+    bucket = "terraformbackend12"
+    key = "test/terraform.tfstate"
+    region = "ap-south-1"
     encrypt = true
   }
 }
