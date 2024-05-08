@@ -5,7 +5,7 @@ variable "profile" {
 
 variable "region" {
   description = "AWS region to deploy to"
-  default = "eu-west-1"
+  default = "ap-south-1"
   type        = string
 }
 
